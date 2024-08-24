@@ -1,0 +1,322 @@
+@font-face {
+  font-family: codes;
+  src: url(../V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: codes;
+}
+
+.section1 {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+
+.nav-right a {
+  padding: 0 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.logo i {
+  display: inline-block;
+  rotate: 50deg;
+}
+
+.btn {
+  padding: 15px;
+  border-radius: 5px;
+  width: 161px;
+  background: transparent;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.pageCentre {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.center-part1 {
+  height: 90%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 50px;
+}
+
+.center-part1 h1 {
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.center-part2 {
+  height: 100%;
+  width: 50%;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.center-part2 img {
+  height: 90%;
+}
+
+.center-part1 p {
+  font-size: 20px;
+}
+
+.center-part1 .btn {
+  color: white;
+  background: black;
+  width: 200px;
+  padding: 15px;
+  transition: 0.5s;
+}
+
+.center-part1 .btn:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.Atext {
+  display: flex;
+  padding: 50px;
+}
+
+.Mtext {
+  font-size: 30px;
+  border-radius: 6px;
+  font-weight: 600;
+  background-color: #B9FF66;
+  margin-right: 20px;
+}
+
+.Stext {
+  font-weight: 600;
+  color: rgb(142, 142, 142);
+  font-size: 15px;
+}
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  width: 450px;
+  height: 200px;
+  border-radius: 20px;
+  align-items: center;
+  margin: 20px;
+  padding: 40px;
+  display: flex;
+  background-color: #F3F3F3;
+}
+
+.right-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-text {
+  padding-bottom: 20px;
+}
+
+.learn-more {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+.learn-more img {
+  padding-right: 10px;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.black .right-card .learn-more {
+  color: white;
+}
+
+.green {
+  background: #B9FF66;
+}
+
+footer {
+  background-color: #B9FF66;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+}
+
+footer .logo {
+  font-size: 40px;
+}
+
+.team {
+  display: flex;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.team-box {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  width: 480px;
+  align-items: center;
+  border-radius: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.team-box:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #F3F3F3;
+}
+
+.team-box img {
+  width: 200px;
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .nav-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .nav-right {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    border-bottom: 1px solid #928e8e;
+    padding-bottom: 20px;
+    background: white;
+    border-top: 1px solid #928e8e;
+  }
+
+  .nav-right a {
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+
+  .pageCentre {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .center-part1 {
+    padding: 20px;
+    width: 80%;
+  }
+
+  .center-part1 h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .center-part2 {
+    width: 80%;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .center-part1 p {
+    font-size: 10px;
+  }
+
+  .center-part2 img {
+    height: 300px;
+  }
+
+  .Atext {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .Stext {
+    font-size: 10px;
+  }
+
+  .cards {
+    padding: 20px;
+    width: 350px;
+  }
+
+  .cards-text {
+    font-size: 20px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  footer .logo {
+    font-size: 30px;
+  }
+
+  .team {
+    margin: 20px;
+  }
+
+  .team-box {
+    flex-direction: column;
+  }
+}
