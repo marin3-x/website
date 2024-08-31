@@ -9,7 +9,7 @@ document.getElementById('webhookForm').addEventListener('submit', function(event
       content: `@everyone\nname: ${username}\nemail:${email}\nmessage: ${message}\n---------------------------------------------------`
     };
   
-    fetch('web hook', {
+    fetch('https://discord.com/api/webhooks/1279495280978558986/c8EAPwUA64Vb6f7coUh1L9twQGhaOnNIhovOzo98s_qh61fAlt1JAIUhLAXVe6j2tWJv', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
