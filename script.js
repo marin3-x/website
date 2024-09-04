@@ -6,10 +6,10 @@ document.getElementById('webhookForm').addEventListener('submit', function(event
     const email = document.getElementById('email').value;
   
     const payload = {
-      content: `@everyone\nname: ${username}\nemail:${email}\nmessage: ${message}\n---------------------------------------------------`
+      content: ` @Verified \nname: ${username}\nemail:${email}\nmessage: ${message}\n---------------------------------------------------`
     };
   
-    fetch('https://discord.com/api/webhooks/1279495280978558986/c8EAPwUA64Vb6f7coUh1L9twQGhaOnNIhovOzo98s_qh61fAlt1JAIUhLAXVe6j2tWJv', {
+    fetch('https://discord.com/api/webhooks/1280586000019624037/nrlMdAVEpsOIMBxxP5uXxRLhIX5F9O6CgM6MPy9qE2VgBNIRl2uZoOrwzV1bfy_ega8i', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
