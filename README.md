@@ -14,10 +14,9 @@ link: https://github.com/marin3-x/website
 
 ## Features
 
-- Draw Feature
-- Win Feature
-- New Game Feature
-- Reset Game Feature
+- Modern ui/ux
+- DOM
+- Sent message
 
 ## To use it 
 
