@@ -9,7 +9,7 @@ A well design website made in simple in html, css and js.
 
 ## Demo
 
-link: https://github.com/marin3-x/TICTACTOE
+link: https://github.com/marin3-x/website
 
 
 ## Features
